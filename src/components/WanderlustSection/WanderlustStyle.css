@@ -1,0 +1,47 @@
+.Wanderlust {
+    position: relative;
+    /* margin: 100px 0; */
+}
+
+.Wanderlust #bg {
+    width: 100%;
+    z-index: 0;
+}
+
+.Wanderlust #play,
+.Wanderlust h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Wanderlust #play {
+    z-index: 3;
+    cursor: pointer;
+    width: 6.6875rem;
+}
+
+.Wanderlust h1 {
+    z-index: 2;
+    color: #fff;
+    font-size: 10rem;
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+}
+
+@media screen and (max-width:992px) {
+    .Wanderlust h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .Wanderlust #play {
+        width: 4rem;
+    }
+
+    .Wanderlust #bg {
+        height: 250px;
+    }
+}

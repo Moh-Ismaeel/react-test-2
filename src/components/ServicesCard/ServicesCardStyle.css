@@ -1,0 +1,25 @@
+.services-card {
+    max-width: 260px;
+}
+
+.services-card .info .Description {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7d7d7d;
+}
+
+.services-card .info h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e1d4c;
+}
+
+.services-card img {
+    width: 120px;
+    height: 90px;
+}
+
+.services-card .info {
+    padding-top: 20px;
+}

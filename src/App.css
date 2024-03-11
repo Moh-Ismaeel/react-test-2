@@ -1,0 +1,7 @@
+.about-page header h1,
+.packages-page header h1 {
+    color: #fff;
+    font-family: "Yesteryear", cursive;
+    font-size: 6.25rem;
+    font-weight: 700;
+}

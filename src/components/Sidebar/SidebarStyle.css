@@ -1,0 +1,73 @@
+.sidebar {
+    background-color: #fff;
+    width: 50%;
+    position: fixed;
+    top: 35px;
+    right: 0px;
+    padding: 25px 0;
+    width: 250px;
+    height: 100%;
+    z-index: 666;
+    display: none;
+}
+
+.top-sidebar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-sidebar button {
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.sidebar-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar-nav #get-in-touch {
+    width: 160px;
+    height: 45px;
+    background-color: #DF6951;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#close {
+    color: #DF6951;
+    font-size: 35px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.sidebar-active {
+    background-color: #DF6951;
+    color: #fff !important;
+}

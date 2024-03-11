@@ -1,0 +1,62 @@
+.trend {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 100px auto;
+    gap: 50px;
+}
+
+.trend .desc {
+    width: 600px;
+}
+
+.trend img {
+    min-width: 300px;
+}
+
+.trend .desc .title {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.trend .desc .title h1 {
+    font-size: 2.4375rem;
+}
+
+.trend .desc .info {
+    color: #2f2f2f;
+}
+
+.percent {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.percent h2 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+.percent h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #181e4b;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:992px) {
+    .trend {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .trend img {
+        padding: 0 40px;
+    }
+}

@@ -1,0 +1,81 @@
+.details {
+    display: flex;
+    justify-content: space-between;
+    color: #7d7d7d;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+#flag {
+    width: 3.125rem;
+    outline: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: 50px;
+    transform: translate(-50%, -60%);
+}
+
+.trending-card {
+    width: 390px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.image-card img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.image-card {
+    position: relative;
+}
+
+.description {
+    margin: 2.5rem;
+}
+
+.rate {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars ul {
+    list-style: none;
+    display: flex;
+}
+
+.description p {
+    color: #5e6282;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.description button {
+    width: 8.125rem;
+    height: 2.812rem;
+    background-color: #DF6951;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.description button:hover {
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+    border: 2px solid #DF6951;
+}
+
+.days,
+.people-going {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
